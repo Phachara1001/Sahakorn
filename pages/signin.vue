@@ -30,7 +30,7 @@
                         </div>
                         <a href="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">ลืมรหัสผ่าน?</a>
                     </div>
-                    <button type="submit" class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" onclick="location.href='home'">เข้าสู่ระบบ</button>
+                    <button type="submit" class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" @click="$router.push('/home')">เข้าสู่ระบบ</button>
                     <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                         ยังไม่มีบัญชี? <a href="signup" class="font-medium text-primary-600 hover:underline dark:text-primary-500">สมัครสมาชิก</a>
                     </p>
